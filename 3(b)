@@ -1,0 +1,16 @@
+rpleShades[index % purpleShades.length],
+            child: Center(
+              child: Text(
+                'Box ${index + 1}',
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ];
+  }
+}
+
+
+
